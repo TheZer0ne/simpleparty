@@ -1,0 +1,23 @@
+name: Simpleparty
+version: 0.1.1
+author: zer0ne
+website: https://github.com/TheZer0ne
+database: false
+prefix: SimpleParty
+main: zer0ne.bukkitplugins.simpleparty.SimpleParty
+commands:
+  pcreate:
+    description: creates a new party
+    usage: /pcreate <partyname>
+  padd:
+    description: adds member to party
+    usage: /padd <playername>
+  premove:
+    description: removes player
+    usage: /premove <playername>
+  pleave:
+    decription: leave party
+    usage: /pleave
+  paccept:
+    description: accept party invitation
+    usage: /paccept
